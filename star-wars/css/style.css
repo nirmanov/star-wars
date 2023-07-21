@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "MatterHorn";
+  src: local("MatterHorn"),
+    url("../fonts/matterhorn-regular.woff") format("woff");
+}
+
+body {
+  background-color: #000000;
+  font-family: "MatterHorn", "Trebuchet MS", sans-serif;
+  color: #ffffff;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.header__logo {
+  height: 70px;
+}
+
+.header__title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.film-item-container:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.film-item-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.film-item-number {
+  margin-right: 10px;
+}
